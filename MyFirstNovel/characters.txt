@@ -1,0 +1,5 @@
+I figured out what was going wrong. Basically the first line in my .gitignore file is "*/". This causes any file added to sub directory being ignored by git status command. But the funny thing was if I modify any files in sub folder, git status correctly shows them as modified as the file is already in git repository, but was ignoring new files in sub folder.
+
+I fixed my issue by removing the line in .gitignore file to not ignore changes in sub folders, then added the new files to index and then again added back the line in .gitignore so that it will ignore any generated files in subfolders.
+
+Thanks all for the responses.
