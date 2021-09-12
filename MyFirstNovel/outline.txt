@@ -1,1 +1,13 @@
 Hello WOrld!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+I have a project with the following folder structure:
+
+All the project files are in base_fldr folder. Also I have a few folders inside base_fldr called sub_fldr1 and sub_fldr2. These sub folders also contain some files.
+
+If I modify any of the files inside my base_fldr or base_fldr\sub_fldr\ then git status shows them as modified. Also if I add a new file to base_fldr, git status will show it as untracked file.
+
+My problem is if I add a new file inside base_fldr\sub_fldr\ then the git status doesn't show the file as untracked. It won't even give any info about the file.
+
+The file or its extension is NOT in my .gitignore list. Also I did try git add sub_fldr\file_name but neither it gave an error nor it add the file to index.
+
+Any idea what's happening here? Thanks!

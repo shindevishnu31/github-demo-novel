@@ -3,3 +3,4 @@ I figured out what was going wrong. Basically the first line in my .gitignore fi
 I fixed my issue by removing the line in .gitignore file to not ignore changes in sub folders, then added the new files to index and then again added back the line in .gitignore so that it will ignore any generated files in subfolders.
 
 Thanks all for the responses.
+
