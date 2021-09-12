@@ -11,3 +11,5 @@ My problem is if I add a new file inside base_fldr\sub_fldr\ then the git status
 The file or its extension is NOT in my .gitignore list. Also I did try git add sub_fldr\file_name but neither it gave an error nor it add the file to index.
 
 Any idea what's happening here? Thanks!
+
+ /f/Git_Course/MyFirstNovel (master)
